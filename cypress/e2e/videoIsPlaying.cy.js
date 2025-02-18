@@ -1,7 +1,7 @@
 import iFramePage from './page_objects/iframe.js';
 
-describe('template spec', () => {
-    it('passes', () => {
-      cy.iFramePage.visit();
+describe('verify video is playing', () => {
+    it('clicks play button', () => {
+      iFramePage.visit();
     })
   })
