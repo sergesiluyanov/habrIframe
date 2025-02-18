@@ -1,5 +1,7 @@
+import iFramePage from './page_objects/iframe.js';
+
 describe('template spec', () => {
     it('passes', () => {
-      cy.visit('https://example.cypress.io')
+      cy.iFramePage.visit();
     })
   })
